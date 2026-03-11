@@ -4,7 +4,7 @@
 
 # Usage
 
-* In the hypr.config
+* In the ../hypr/input.conf
 
 ```
 input {
@@ -14,7 +14,7 @@ input {
 }
 ```
 
-* In the waybar.config:
+* In the ../waybar/config.jsonc:
 
 ```
   "hyprland/language": {
