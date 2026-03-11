@@ -4,6 +4,18 @@
 
 # Usage
 
+* In the hypr.config
+
+```
+input {
+  # Use multiple keyboard layouts and switch between them with Left Alt + Right Alt
+  kb_layout = us,de
+  kb_options = compose:caps,grp:alts_toggle
+}
+```
+
+* In the waybar.config:
+
 ```
   "hyprland/language": {
     "format": "{}",
