@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But allow directories
+!*/
+
+# Explicitly allow specific files
+!.gitignore
+!hypr/input.conf
+!waybar/config.jsonc
